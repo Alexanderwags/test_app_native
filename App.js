@@ -1,7 +1,11 @@
 import React from 'react';
-
+import Router from './src/router/index';
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <Router />
+    </>
+  );
 };
 
 export default App;
